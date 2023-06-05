@@ -1,5 +1,4 @@
 import LinkButton from "../LinkButton"
-import Button from "../LinkButton"
 import Title from "../Title"
 import ProfileSection from "./ProfileSection"
 import styles from "./styles.module.css"
@@ -20,7 +19,6 @@ export default function Profile(props) {
                     <LinkButton href={props.linkedinUrl} >LinkedIn</LinkButton>
                     <LinkButton href={props.twitterUrl} >Twiter</LinkButton>
                 </div>
-               
             </ProfileSection>
         </div>
     )
